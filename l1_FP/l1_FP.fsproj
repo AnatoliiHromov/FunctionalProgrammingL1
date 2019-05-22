@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Task1Map.fs" />
+    <Compile Include="Task2Filtering.fs" />
+    <Compile Include="Task3Folding.fs" />
+    <Compile Include="Task4Sorting.fs" />
+    <Compile Include="Task5Apply.fs" />
+    <Compile Include="Task6HigherOrder.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
