@@ -1,15 +1,13 @@
-﻿open System // Gets access to functionality in System namespace.
+﻿open System 
 open Task1Map
 open Task2Filtering
 open Task3Folding
 open Task4Sorting
 open Task5Apply
 open Task6HigherOrder
-// Defines a function that takes a name and produces a greeting.
 
 [<EntryPoint>]
 let main args =
-    // Defines a list of names
     printfn "Data for task1:"
     printfn "1:%A" numbers1
     printfn "2:%A" numbers2
